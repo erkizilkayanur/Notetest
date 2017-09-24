@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".NoteActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:text="Insert Button"
+        android:textSize="20dp"
+        android:id="@+id/ınsertBtnId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listRcyViewId">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
